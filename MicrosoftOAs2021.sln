@@ -1,6 +1,6 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MicrosoftOAs2021", "MicrosoftOAs2021\MicrosoftOAs2021.csproj", "{7E7FA356-9E85-4C30-965D-BC7FA37DD1DE}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DataStructureOAs2021", "DataStructureOAs2021\DataStructureOAs2021.csproj", "{7E7FA356-9E85-4C30-965D-BC7FA37DD1DE}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution

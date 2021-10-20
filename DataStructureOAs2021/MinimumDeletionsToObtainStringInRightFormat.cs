@@ -1,6 +1,6 @@
 ﻿using System;
 
-namespace MicrosoftOAs2021
+namespace DataStructureOAs2021
 {
     public class MinimumDeletionsToObtainStringInRightFormat
     {
@@ -21,7 +21,7 @@ namespace MicrosoftOAs2021
                 }
                 else
                 {
-                    
+                    _Ys++;
                 }
             }
             
