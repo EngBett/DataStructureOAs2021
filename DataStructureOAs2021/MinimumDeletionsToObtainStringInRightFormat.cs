@@ -17,7 +17,7 @@ namespace DataStructureOAs2021
             {
                 if (ch == 'X')
                 {
-                    
+                    min = Math.Min(_Ys, min + 1);
                 }
                 else
                 {
@@ -25,7 +25,7 @@ namespace DataStructureOAs2021
                 }
             }
             
-            return 0;
+            return min;
         }
     }
 
@@ -34,7 +34,7 @@ namespace DataStructureOAs2021
         static void Main(string[] args)
         {
             var str = "YXXXYXY";
-            Console.WriteLine(Solution.MinStep(str));
+            Console.WriteLine(Solution.MinStep(str)==2);
         }
     }
 }
