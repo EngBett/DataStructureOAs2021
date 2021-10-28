@@ -2,11 +2,13 @@
 
 namespace DataStructureOAs2021
 {
-    public class MinimumDeletionsToObtainStringInRightFormat
-    {
-        
-    }
-    class Solution
+    /**
+     * Given a string with only characters X and Y.
+     * Find the minimum number of characters to remove from the string such that there is no interleaving of character X and Y and all the Xs appear before any Y.
+     * 
+     */
+    
+    class MinimumDeletionsToObtainStringInRightFormat
     {
         public static int MinStep(String str)
         {
@@ -29,12 +31,5 @@ namespace DataStructureOAs2021
         }
     }
 
-    class Program
-    {
-        static void Main(string[] args)
-        {
-            var str = "YXXXYXY";
-            Console.WriteLine(Solution.MinStep(str)==2);
-        }
-    }
+    
 }
